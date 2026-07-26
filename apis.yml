@@ -1,7 +1,28 @@
 aid: electio
 name: Electio
-description: Electio is a company surfaced as a portfolio company of general-catalyst and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Electio (Electio Technologies) is a San Francisco-based, General
+  Catalyst-backed software company building modern control-system software for
+  energy production and transportation infrastructure. The company modernizes
+  the legacy industrial control layers behind power generation, oil and gas, and
+  transportation networks with next-generation software for monitoring,
+  automation, and operational reliability. Electio is an early-stage, largely
+  stealth company: it publishes a company website, a careers page, a contact
+  page, and a privacy policy, but has not released a public developer platform,
+  API, SDK, or documentation as of this profile. This entry was surfaced as a
+  General Catalyst portfolio company and enriched as an identity-only lead.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://static1.squarespace.com/static/6633e967115d3c7d7be7a2fb/t/6656362d506195583d7c9ee1/1716925997776/AoE_Electio_v2.png?format=1500w
 url: https://raw.githubusercontent.com/api-evangelist/electio/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +32,33 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Energy
+- Infrastructure
+- Control Systems
+- Industrial Software
+- Transportation
+- Automation
+- Stealth
 apis: []
+common:
+- type: DomainSecurity
+  url: security/electio-domain-security.yml
+- type: Website
+  url: https://www.electiotechnologies.com/
+- type: PrivacyPolicy
+  url: https://www.electiotechnologies.com/privacy-policy
+- type: Support
+  url: https://www.electiotechnologies.com/contact
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
