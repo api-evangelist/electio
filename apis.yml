@@ -11,6 +11,17 @@ description: >-
   page, and a privacy policy, but has not released a public developer platform,
   API, SDK, or documentation as of this profile. This entry was surfaced as a
   General Catalyst portfolio company and enriched as an identity-only lead.
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
